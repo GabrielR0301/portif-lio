@@ -55,13 +55,13 @@ header {
 }
 
 .menu-list a:hover {
-    background: #90caf9;
+    background: #1dff3f;
 }
 
 .search-bar {
     display: flex;
     align-items: center;
-    background: white;
+    background: rgb(0, 0, 0);
     margin: 10REM;
     padding: 5px;
     border-radius: 5px;
@@ -87,7 +87,7 @@ header {
 }
 .port{ 
     margin-left: -100px; 
-    color: rgb(77, 103, 219); 
+    color: rgb(78, 255, 58); 
     font-size: 30px; 
     cursor: pointer; 
     padding-right: 50px;
