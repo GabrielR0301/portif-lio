@@ -62,7 +62,7 @@ header {
 .search-bar {
     display: flex;
     align-items: center;
-    background: white;
+    background: rgb(0, 0, 0);
     margin: 10REM;
     padding: 5px;
     border-radius: 5px;
