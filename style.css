@@ -1,0 +1,129 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e3f2fd; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    background-color: #bbdefb;
+  
+}
+
+.menu {
+    position: relative;
+    
+}
+
+.menu-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    height: 70px;
+    
+}
+
+.menu-list {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background: #81a5c2; 
+    color: black;
+    list-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+}
+
+.menu-list li {
+    padding: 5px 10px;
+}
+
+.menu-list a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.menu-list a:hover {
+    background: #90caf9;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background: white;
+    margin: 10REM;
+    padding: 5px;
+    border-radius: 5px;
+    margin: auto;
+    width: 60%;
+    max-width 500px; 
+}
+
+
+.search-bar input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    padding: 10px; 
+    width: 100%; 
+    font-size: 16px; 
+}
+
+.material-icons {
+    cursor: pointer;
+    color: #000000;
+    margin-left: 10px;
+}
+.port{ 
+    margin-left: -100px; 
+    color: rgb(77, 103, 219); 
+    font-size: 30px; 
+    cursor: pointer; 
+    padding-right: 50px;
+}
+nav {
+    padding: 10px;
+    text-align: center;
+    margin-left: -100px; 
+    font-size: 20px; 
+    cursor: pointer; 
+    padding-right: 50px;
+}
+ nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+ }
+ nav ul li {
+    display: inline;
+    margin: 5px; =
+ }
+ nav ul li a {
+    color: #ffffff; 
+    text-decoration: none;
+    font-size: 1.25em;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+ }
+ nav ul li a:hover {
+    background-color: #082b3f; 
+ }
+ @media (max-width: 600px) {
+    nav ul {
+        flex-direction: column; 
+        align-items: center; 
+    }
+}
