@@ -113,13 +113,13 @@ nav {
     margin: 5px;
  }
  nav ul li a {
-    color: #ffffff; 
+    color: #000000; 
     text-decoration: none;
     padding: 10px 15px;
     transition: background-color 0.3s ease;
  }
  nav ul li a:hover {
-    background-color: #082b3f; 
+    background-color: #000000; 
     border-radius: 5px;
  }
  @media (max-width: 600px) {
