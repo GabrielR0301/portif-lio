@@ -4,7 +4,7 @@
 }
 body {
     font-family: Arial, sans-serif;
-    background-color: #e9ff89; 
+    background-color: #ec0808; 
 }
 
 header {
@@ -13,7 +13,7 @@ header {
     align-items: center;
     color: rgb(0, 0, 0);
     padding: 10px;
-    background-color: #3dff4a;
+    background-color: #f1a532;
   
 }
 
@@ -37,7 +37,7 @@ header {
     position: absolute;
     top: 40px;
     left: 0;
-    background: #3dff4a; 
+    background: #f1a532; 
     color: black;
     list-style: none;
     padding: 10px;
@@ -49,14 +49,14 @@ header {
     padding: 5px 10px;
 }
 
-.menu-list a {
+.listaapertada a{
     text-decoration: none;
     color: black;
     display: block;
 }
 
 .menu-list a:hover {
-    background: #4ff378;
+    background: #f1a532;
 }
 
 .search-bar {
@@ -81,7 +81,7 @@ header {
     font-size: 16px; 
 }
 
-.material-icons {
+.botao {
     cursor: pointer;
     color: #ffffff;
     margin-left: 10px;
