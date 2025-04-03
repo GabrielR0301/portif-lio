@@ -83,6 +83,7 @@ header {
 
 .botao {
     cursor: pointer;
+    color: #ffffff;
     margin-left: 10px;
 }
 .port{ 
