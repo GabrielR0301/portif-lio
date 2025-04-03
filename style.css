@@ -119,11 +119,11 @@ header {
     transition: background-color 0.3s ease;
  }
  .botoes ul li a:hover {
-    background-color: none; 
+    background-color: #000000; 
     border-radius: 5px;
  }
  @media (max-width: 600px) {
-    nav ul {
+    .botoes ul {
         flex-direction: column; 
         align-items: center; 
     }
