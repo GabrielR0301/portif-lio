@@ -115,13 +115,13 @@ header {
     margin: 5px;
  }
 .botoes ul li a {
-    color: #ffffff; 
+    color: #000000; 
     text-decoration: none;
     padding: 10px 15px;
     transition: background-color 0.3s ease;
  }
  .botoes ul li a:hover {
-    background-color: #000000; 
+    background-color: #ffffff; 
     border-radius: 5px;
  }
  @media (max-width: 600px) {
