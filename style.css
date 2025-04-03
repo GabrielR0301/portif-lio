@@ -118,10 +118,8 @@ header {
     padding: 10px 15px;
     transition: background-color 0.3s ease;
  }
-.botoes ul li a:hover {
-    background-color: #000000; 
-    border-radius: 5px;
- }
+
+ 
  @media (max-width: 600px) {
     nav ul {
         flex-direction: column; 
