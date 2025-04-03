@@ -95,6 +95,7 @@ header {
 }
 .botoes {
     padding: 10px;
+    background-color: #f1a532;
     text-align: center;
     margin-left: -100px; 
     font-size: 20px; 
