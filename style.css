@@ -108,17 +108,17 @@ header {
     flex-wrap: wrap; 
     justify-content: center; 
  }
- botoes ul li {
+.botoes ul li {
     display: inline;
     margin: 5px;
  }
- botoes ul li a {
+.botoes ul li a {
     color: #000000; 
     text-decoration: none;
     padding: 10px 15px;
     transition: background-color 0.3s ease;
  }
- botoes ul li a:hover {
+.botoes ul li a:hover {
     background-color: #000000; 
     border-radius: 5px;
  }
