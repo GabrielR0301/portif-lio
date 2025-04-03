@@ -93,7 +93,7 @@ header {
     cursor: pointer; 
     padding-right: 50px;
 }
-nav {
+.botoes {
     padding: 10px;
     text-align: center;
     margin-left: -100px; 
@@ -101,24 +101,24 @@ nav {
     cursor: pointer; 
     padding-right: 50px;
 }
- nav ul {
+ botoes ul {
     list-style-type: none;
     padding: 0;
     display: flex; 
     flex-wrap: wrap; 
     justify-content: center; 
  }
- nav ul li {
+ botoes ul li {
     display: inline;
     margin: 5px;
  }
- nav ul li a {
+ botoes ul li a {
     color: #000000; 
     text-decoration: none;
     padding: 10px 15px;
     transition: background-color 0.3s ease;
  }
- nav ul li a:hover {
+ botoes ul li a:hover {
     background-color: #000000; 
     border-radius: 5px;
  }
